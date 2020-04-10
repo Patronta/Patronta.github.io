@@ -22,8 +22,13 @@ header{
 .logo {
   background-image: url(Sources/Header_3.svg);
   width: 100%;
+  display: block;
+  background-size: 100%;
   /*margin: 0px;*/
-  padding: 93px 0px;
+  /*padding: 93px 0px;*/
+
+ 
+  
 }
 
 header span{
@@ -32,7 +37,7 @@ header span{
   font-family: 'Agency FB';
   margin: 0 auto;
   position: relative;
-  left: 48%;
+  left: 50%;
   margin-left: -105px;
 }
 
