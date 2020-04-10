@@ -220,20 +220,22 @@ nav ul li a {
   }
 
   .migrate {
-    margin: 3% 0% 6% 40%;
-    width: 350px;
+	align: center;
+    margin: 3% auto 6% auto;
+    width: max-content;
     height: 70px;
     background-image: url(Images/Button_1.jpg);
   }
 	
   .migrate a {
+	align: center;
     color: whitesmoke;
     display: block;
     padding: 20px 52px;
     font-size: 15pt;
     text-decoration: none;
     outline: none;
-    font-family: 'Lora', serif;
+    font-family: 'Gotham', sans-serif;
     transition: .2s linear;
     font-weight: bold;
   }
