@@ -25,7 +25,7 @@ header{
   display: block;
   background-size: 100%;
   /*margin: 0px;*/
-  /*padding: 93px 0px;*/
+  padding: 20px 100px;
 
  
   
@@ -225,6 +225,7 @@ nav ul li a {
     height: 70px;
     background-image: url(Images/Button_1.jpg);
   }
+	
   .migrate a {
     color: whitesmoke;
     display: block;
