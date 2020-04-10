@@ -22,8 +22,13 @@ header{
 .logo {
   background-image: url(Sources/Header_3.svg);
   width: 100%;
+  display: block;
+  background-size: 100%;
   /*margin: 0px;*/
-  padding: 93px 0px;
+  /*padding: 93px 0px;*/
+
+ 
+  
 }
 
 header span{
