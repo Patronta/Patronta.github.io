@@ -7,9 +7,9 @@
 }
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100%; 
     height: -webkit-fill-available;
     font-family: 'Playfair Display', serif;
     background-color: whitesmoke;
@@ -43,7 +43,7 @@ nav {
 }
 
 nav ul {
-  list-style: none;
+  list-style: none; 
   margin: 0;
   padding: 0;
 }
@@ -61,7 +61,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 5% 15px;
+  padding: 6% 15px;
   font-size: 15pt;
   text-decoration: none;
   outline: none;
@@ -73,7 +73,7 @@ nav ul li a {
 .fa {
   font-family: "FontAwesome";
   color: inherit;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 .submenu {
@@ -93,8 +93,8 @@ nav ul li a {
 }
 
 .four ul {
-    background: #1F1F1F;
-    opacity: 100%;
+    background: #1C1C1C;
+    opacity: 97%;
   }
 
 .four .submenu {
@@ -104,7 +104,7 @@ nav ul li a {
     -webkit-transform-origin: 0 0;
       -ms-transform-origin: 0 0;
       transform-origin: 0 0;
-    background-color: rgba(25, 25, 25, 1);
+    background-color: rgba(28, 28, 28, 0.87);
 }
 
 .four ul li:hover .submenu {
@@ -167,7 +167,7 @@ nav ul li a {
 
   main {
     flex: 1 0 auto;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 8% 0% 8%;
     font-size: 17pt;
     font-family: 'Open Sans', sans-serif;
     background-color: whitesmoke;
@@ -179,7 +179,7 @@ nav ul li a {
   }
 
   .container {
-    padding: 2% 10% 2% 10%;
+    padding: 2% 15% 2% 15%;
     display: block;
     float: left;
   }
@@ -199,7 +199,7 @@ nav ul li a {
   .container img {
     float: left;
     width: 400px;
-    margin: 1.5% 25px 25px 0px;
+    margin: 25px 25px 25px 0px;
   }
 
   .container a{
