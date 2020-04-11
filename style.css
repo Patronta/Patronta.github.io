@@ -224,7 +224,7 @@ nav ul li a {
     background-image: url(Images/Button_1.jpg);
   }
   .migrate a {
-    align: center
+    align: center;
     color: white;
     display: block;
     padding: 20px 52px;
