@@ -65,7 +65,7 @@ nav ul li a {
   font-size: 15pt;
   text-decoration: none;
   outline: none;
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
   transition: .2s linear;
   font-weight: bold;
 }
@@ -167,7 +167,7 @@ nav ul li a {
 
   main {
     flex: 1 0 auto;
-    margin: 0% 15% 0% 15%;
+    margin: 0% auto 0% auto;
     font-size: 17pt;
     font-family: 'Open Sans', sans-serif;
     background-color: whitesmoke;
@@ -179,7 +179,7 @@ nav ul li a {
   }
 
   .container {
-    padding: 2% 15% 2% 15%;
+    padding: 2% 10% 2% 10%;
     display: block;
     float: left;
   }
@@ -198,7 +198,7 @@ nav ul li a {
   .container img {
     float: left;
     width: 400px;
-    margin: 25px 25px 25px 0px;
+    margin: 1.5% 25px 25px 0px;
   }
 
   footer {
