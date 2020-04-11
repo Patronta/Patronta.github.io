@@ -23,7 +23,7 @@ header{
   background-image: url(Images/Header_3.svg);
   width: 100%;
   /*margin: 0;*/
-  padding: 1% 0;
+  padding: 4% 0;
   display: block;
   background-size: 100%;
 }
@@ -61,7 +61,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 10px 7px;
+  padding: 6% 15px;
   font-size: 15pt;
   text-decoration: none;
   outline: none;
@@ -73,7 +73,7 @@ nav ul li a {
 .fa {
   font-family: "FontAwesome";
   color: inherit;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 .submenu {
@@ -167,7 +167,7 @@ nav ul li a {
 
   main {
     flex: 1 0 auto;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 8% 0% 8%;
     font-size: 17pt;
     font-family: 'Open Sans', sans-serif;
     background-color: whitesmoke;
@@ -179,7 +179,7 @@ nav ul li a {
   }
 
   .container {
-    padding: 2% 10% 2% 10%;
+    padding: 2% 15% 2% 15%;
     display: block;
     float: left;
   }
@@ -199,6 +199,15 @@ nav ul li a {
     float: left;
     width: 400px;
     margin: 1.5% 25px 25px 0px;
+  }
+  .container a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .container p a{
+    text-decoration: none;
+    color: #F15B42;
   }
 
   footer {
