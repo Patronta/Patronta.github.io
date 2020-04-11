@@ -167,7 +167,7 @@ nav ul li a {
 
   main {
     flex: 1 0 auto;
-    margin: 0% auto 0% auto;
+    margin: 0% 10% 0% 10%;
     font-size: 17pt;
     font-family: 'Open Sans', sans-serif;
     background-color: whitesmoke;
