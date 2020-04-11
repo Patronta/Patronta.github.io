@@ -23,7 +23,7 @@ header{
   background-image: url(Images/Header_3.svg);
   width: 100%;
   /*margin: 0;*/
-  padding: 1% 0;
+  padding: 4% 0;
   display: block;
   background-size: 100%;
 }
@@ -34,7 +34,7 @@ header span{
   font-family: 'Agency FB';
   margin: 0 auto;
   position: relative;
-  left: 50%;
+  left: 48%;
   margin-left: -105px;
 }
 
@@ -61,7 +61,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 10px 7px;
+  padding: 5% 15px;
   font-size: 15pt;
   text-decoration: none;
   outline: none;
@@ -187,6 +187,7 @@ nav ul li a {
   .container p {
     margin: 0;
     padding-bottom: 5%;
+    font-size: 100%;
   }
 
   .container h4 {
@@ -199,6 +200,15 @@ nav ul li a {
     float: left;
     width: 400px;
     margin: 1.5% 25px 25px 0px;
+  }
+
+  .container a{
+    text-decoration: none;
+    color: black;
+  }
+  .container p a{
+    text-decoration: none;
+    color: #F15B42;
   }
 
   footer {
@@ -219,19 +229,19 @@ nav ul li a {
   }
 
   .migrate {
-    margin: 3% auto 6% auto;
-    width: max-content;
+    margin: 3% 0% 6% 40%;
+    width: 350px;
+    height: 70px;
     background-image: url(Images/Button_1.jpg);
   }
   .migrate a {
-    align: center;
-    color: white;
+    color: whitesmoke;
     display: block;
     padding: 20px 52px;
     font-size: 15pt;
     text-decoration: none;
     outline: none;
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Lora', serif;
     transition: .2s linear;
     font-weight: bold;
   }
