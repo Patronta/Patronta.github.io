@@ -17,6 +17,7 @@ body {
 
 header{
   width: 100%;
+  background-color: #1F1F1F;
 }
 
 .logo {
@@ -44,13 +45,13 @@ nav {
 
 nav ul {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
 .topmenu > li {
   display: inline-block;
-  margin: auto;
+  margin: auto 1%;
   position: relative;
   padding: 5px;
 }
@@ -73,7 +74,7 @@ nav ul li a {
 .fa {
   font-family: "FontAwesome";
   color: inherit;
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 .submenu {
@@ -89,7 +90,8 @@ nav ul li a {
 }
 
 .four{
-    margin: 0;
+    margin: 0 auto;
+    width: 95%;
 }
 
 .four ul {
@@ -161,27 +163,28 @@ nav ul li a {
 
   form {
     position: relative;
-    width: 300px;
-    margin: 0 auto;
+    width: 100%;
+    margin-right: 100px;
   }
 
   main {
-    flex: 1 0 auto;
-    margin: 0% 10% 0% 10%;
+    margin: 0 auto;
     font-size: 17pt;
     font-family: 'Open Sans', sans-serif;
     background-color: whitesmoke;
+    width: 70%;
   }
 
   .text {
     padding: 1% 12% 2% 20%;
-    margin: 0;
+    margin: 0 auto;
+    clear: both;
   }
 
   .container {
     padding: 2% 10% 2% 10%;
     display: block;
-    float: left;
+    clear: both;
   }
 
   .container p {
@@ -201,6 +204,15 @@ nav ul li a {
     margin: 1.5% 25px 25px 0px;
   }
 
+  .container a{
+    text-decoration: none;
+    color: black;
+  }
+  .container p a{
+    text-decoration: none;
+    color: #F15B42;
+  }
+
   footer {
       flex: 0 0 auto;
       clear: both;
@@ -216,6 +228,7 @@ nav ul li a {
 
   h3, h2{
     text-align: center;
+    margin: 1% auto;
   }
 
   .migrate {
@@ -236,7 +249,7 @@ nav ul li a {
     font-weight: bold;
   }
 
-  .center {
-    display:block;
-    margin: auto;
+  .table {
+    width: 80%;
+    margin: 0 auto;
   }
