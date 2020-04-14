@@ -23,7 +23,7 @@ header{
   background-image: url(Images/Header_3.svg);
   width: 100%;
   /*margin: 0;*/
-  padding: 1% 0;
+  padding: 5% 0;
   display: block;
   background-size: 100%;
 }
@@ -224,7 +224,7 @@ nav ul li a {
     background-image: url(Images/Button_1.jpg);
   }
   .migrate a {
-    align: center;
+    text-align: center;
     color: white;
     display: block;
     padding: 20px 52px;
