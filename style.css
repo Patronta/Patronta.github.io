@@ -23,6 +23,8 @@ header{
 
 .logo {
   background-image: url(Images/Header_3.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   /*margin: 0;*/
   padding: 5% 0;
@@ -63,7 +65,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 6% 15px;
+  padding: 10px 7px;
   font-size: 15pt;
   text-decoration: none;
   outline: none;
@@ -183,7 +185,7 @@ nav ul li a {
   }
 
   .container {
-    padding: 2% 15% 2% 15%;
+    padding: 2% 10% 2% 10%;
     display: block;
     clear: both;
   }
@@ -204,15 +206,6 @@ nav ul li a {
     width: 400px;
     margin: 1.5% 25px 25px 0px;
   }
-  .container a{
-    text-decoration: none;
-    color: black;
-  }
-
-  .container p a{
-    text-decoration: none;
-    color: #F15B42;
-  }
 
   .container a{
     text-decoration: none;
@@ -224,16 +217,13 @@ nav ul li a {
   }
 
   footer {
-      flex: 0 0 auto;
-      clear: both;
-      bottom: 0;
-  }
-
-  .footer {
-    background-image: url(Images/Footer.svg);
-    display: block;
-    background-size: 100%;
-    padding-bottom: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      background-image: url(Images/Footer.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 25px;
+      position: relative;
   }
 
   h3, h2{
@@ -279,6 +269,9 @@ nav ul li a {
   .copyright{
     text-align: center;
     color: whitesmoke;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .copyright a{
@@ -291,8 +284,9 @@ nav ul li a {
   }
 
   .links{
-    float: right;
-    margin-top: 2.6%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
   }
 
   .social {
@@ -323,3 +317,5 @@ nav ul li a {
   .discord a:hover {background: #7289da;}
   .github a:hover {background: #191919;}
   .telegram a:hover {background: #249bd7;}
+
+
