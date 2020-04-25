@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,700,400italic,700italic&subset=latin,cyrillic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 * {box-sizing: border-box;}
 @font-face {
   font-family: 'Agency FB';
@@ -228,7 +229,7 @@ nav ul li a {
 
   h3, h2{
     text-align: center;
-    margin: 1% auto;
+    margin: 2% auto;
   }
 
   .migrate {
@@ -249,7 +250,69 @@ nav ul li a {
     font-weight: bold;
   }
 
-  .table {
-    width: 80%;
-    margin: 0 auto;
+  table {
+    width: 70%;
+    margin: 3% auto;
+    border-collapse: collapse;
   }
+
+  tr {
+    display: table-row;
+  }
+
+  td {
+    display: table-cell;
+    vertical-align: inherit;
+    border: 2px solid #1F1F1F;
+    padding: 0% 2%;
+  }
+
+  .copyright{
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  .copyright a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  footer .fa{
+    padding: 0;
+  }
+
+  .links{
+    float: right;
+    margin-top: 2.6%;
+  }
+
+  .social {
+    display: inline-block;
+  }
+
+  .social a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+  }
+
+  .social a:hover {color: #fff;}
+
+  .social svg {
+    margin-top: 7px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .discord a:hover {background: #7289da;}
+  .github a:hover {background: #191919;}
+  .telegram a:hover {background: #249bd7;}
+
+
