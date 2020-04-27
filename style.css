@@ -255,6 +255,7 @@ nav ul li a {
   }
   .VM{
     width: max-content;
+    margin: 0 auto;
   }
 
   table {
