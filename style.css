@@ -22,7 +22,7 @@ header{
 }
 
 .logo {
-  background-image: url(Images/Header.svg);
+  background-image: url(Images/Header_3.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -40,6 +40,7 @@ header span{
   position: relative;
   left: 50%;
   margin-left: -105px;
+  width: 45%;
 }
 
 nav {
@@ -179,6 +180,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    clear: both;
   }
 
   .text {
