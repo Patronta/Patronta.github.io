@@ -106,5 +106,19 @@
         </div>
       </div>
   </footer>
+  <i id="upbutton" class="fa fa-chevron-up fa-2x" ></i>
   <script src="https://use.fontawesome.com/7977778b24.js"></script>
+  <script src="https://code.jquery.com/jquery-git.min.js"></script>
+  <script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 300) {
+            if ($('#upbutton').is(':hidden')) {
+                $('#upbutton').css({opacity : 1}).fadeIn('slow');
+            }
+        } else { $('#upbutton').stop(true, false).fadeOut('fast'); }
+    });
+    $('#upbutton').click(function() {
+        $('html, body').stop().animate({scrollTop : 0}, 300);
+    });
+  </script>
 </html>
